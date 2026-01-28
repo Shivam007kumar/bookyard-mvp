@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 # Run Server
 uvicorn main:app --reload
-The API will run at http://127.0.0.1:8000
+
 2. Frontend Setup
 Open a new terminal, navigate to frontend, and start the client.
 code
@@ -81,7 +81,7 @@ npm install
 
 # Run Dev Server
 npm run dev
-The App will run at http://localhost:5173
+The App will run at https://main.d36am1dhijduek.amplifyapp.com
 ☁️ Deployment (AWS)
 The project is configured for deployment using AWS App Runner (Backend) and AWS Amplify (Frontend).
 Backend (AWS App Runner)
